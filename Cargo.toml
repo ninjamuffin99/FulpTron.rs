@@ -1,0 +1,11 @@
+[package]
+name = "fulpron_rust"
+version = "0.1.0"
+authors = ["Cameron Taylor <cameron.taylor.ninja@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.serenity]
+version = "0.7.1"
+features = ["framework", "standard_framework", "rustls_backend"]
